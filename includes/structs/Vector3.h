@@ -49,14 +49,14 @@ struct _Vector3T : public THIS_TYPE {
 	}
 };
 
-template<typename T> inline const _Vector3T<T> _Vector3T<T>::Left		(-1,  0,  0);
-template<typename T> inline const _Vector3T<T> _Vector3T<T>::Right		( 1,  0,  0);
-template<typename T> inline const _Vector3T<T> _Vector3T<T>::Up			( 0,  1,  0);
-template<typename T> inline const _Vector3T<T> _Vector3T<T>::Down		( 0, -1,  0);
-template<typename T> inline const _Vector3T<T> _Vector3T<T>::Back		( 0,  0, -1);
-template<typename T> inline const _Vector3T<T> _Vector3T<T>::Forward	( 0,  0,  1);
-template<typename T> inline const _Vector3T<T> _Vector3T<T>::One		( 1,  1,  1);
-template<typename T> inline const _Vector3T<T> _Vector3T<T>::Zero		( 0,  0,  0);
+template<typename T> inline const _Vector3T<T> _Vector3T<T>::Left	 (-1,  0,  0);
+template<typename T> inline const _Vector3T<T> _Vector3T<T>::Right	 ( 1,  0,  0);
+template<typename T> inline const _Vector3T<T> _Vector3T<T>::Up		 ( 0,  1,  0);
+template<typename T> inline const _Vector3T<T> _Vector3T<T>::Down	 ( 0, -1,  0);
+template<typename T> inline const _Vector3T<T> _Vector3T<T>::Back	 ( 0,  0, -1);
+template<typename T> inline const _Vector3T<T> _Vector3T<T>::Forward ( 0,  0,  1);
+template<typename T> inline const _Vector3T<T> _Vector3T<T>::One	 ( 1,  1,  1);
+template<typename T> inline const _Vector3T<T> _Vector3T<T>::Zero	 ( 0,  0,  0);
 
 #undef THIS_TYPE
 #undef N_DIMS

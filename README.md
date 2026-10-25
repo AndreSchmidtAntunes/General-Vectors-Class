@@ -2,6 +2,7 @@
 c++ library for game-engine vector calculations
 
 This library provides a templated base vector class of arbitrary length and data type, and some derived types.
+This is a personal unmaintained project, so support is quite limited.
 
 ## Included Types
 

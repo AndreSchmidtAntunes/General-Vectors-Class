@@ -139,4 +139,4 @@ int main() {
 ```
 
 ## TODO
-- [ ] Add conversion between Colour and Colour255 types by multiplying and dividing by `255`.
+Add conversion between Colour and Colour255 types by multiplying and dividing by `255`.

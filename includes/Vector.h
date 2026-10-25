@@ -466,14 +466,14 @@ namespace Vector {
 		return lhs.Dot(rhs);
 	}
 
-	inline constexpr const _VectorT<int, 1> Left				( -1 );
-	inline constexpr const _VectorT<int, 1> Right				(  1 );
-	inline constexpr const _VectorT<int, 2> Up				(  0,  1 );
-	inline constexpr const _VectorT<int, 2> Down			(  0, -1 );
-	inline constexpr const _VectorT<int, 3> Back		(  0,  0, -1 );
-	inline constexpr const _VectorT<int, 3> Forward		(  0,  0,  1 );
-	inline constexpr const _VectorT<int, 4> Ana		(  0,  0,  0,  1 );
-	inline constexpr const _VectorT<int, 4> Kata	(  0,  0,  0, -1 );
+	inline constexpr const _VectorT<int,1> Left		( -1 );
+	inline constexpr const _VectorT<int,1> Right	(  1 );
+	inline constexpr const _VectorT<int,2> Up		(  0,  1 );
+	inline constexpr const _VectorT<int,2> Down		(  0, -1 );
+	inline constexpr const _VectorT<int,3> Back		(  0,  0, -1 );
+	inline constexpr const _VectorT<int,3> Forward	(  0,  0,  1 );
+	inline constexpr const _VectorT<int,4> Ana		(  0,  0,  0,  1 );
+	inline constexpr const _VectorT<int,4> Kata		(  0,  0,  0, -1 );
 
 	template<size_t nDim>
 	static constexpr const _VectorT<int, nDim> Zero = _VectorT<int, nDim>::Fill(0);

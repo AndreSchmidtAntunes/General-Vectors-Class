@@ -38,16 +38,16 @@ struct _Vector4T : public THIS_TYPE {
 	static const _Vector4T Zero;
 };
 
-template<typename T> inline const _Vector4T<T> _Vector4T<T>::Left		(-1,  0,  0,  0);
-template<typename T> inline const _Vector4T<T> _Vector4T<T>::Right		( 1,  0,  0,  0);
-template<typename T> inline const _Vector4T<T> _Vector4T<T>::Up			( 0,  1,  0,  0);
-template<typename T> inline const _Vector4T<T> _Vector4T<T>::Down		( 0, -1,  0,  0);
-template<typename T> inline const _Vector4T<T> _Vector4T<T>::Back		( 0,  0, -1,  0);
-template<typename T> inline const _Vector4T<T> _Vector4T<T>::Forward	( 0,  0,  1,  0);
-template<typename T> inline const _Vector4T<T> _Vector4T<T>::Ana		( 0,  0,  0,  1);
-template<typename T> inline const _Vector4T<T> _Vector4T<T>::Kata		( 0,  0,  0, -1);
-template<typename T> inline const _Vector4T<T> _Vector4T<T>::One		( 1,  1,  1,  1);
-template<typename T> inline const _Vector4T<T> _Vector4T<T>::Zero		( 0,  0,  0,  0);
+template<typename T> inline const _Vector4T<T> _Vector4T<T>::Left	 (-1,  0,  0,  0);
+template<typename T> inline const _Vector4T<T> _Vector4T<T>::Right	 ( 1,  0,  0,  0);
+template<typename T> inline const _Vector4T<T> _Vector4T<T>::Up		 ( 0,  1,  0,  0);
+template<typename T> inline const _Vector4T<T> _Vector4T<T>::Down	 ( 0, -1,  0,  0);
+template<typename T> inline const _Vector4T<T> _Vector4T<T>::Back	 ( 0,  0, -1,  0);
+template<typename T> inline const _Vector4T<T> _Vector4T<T>::Forward ( 0,  0,  1,  0);
+template<typename T> inline const _Vector4T<T> _Vector4T<T>::Ana	 ( 0,  0,  0,  1);
+template<typename T> inline const _Vector4T<T> _Vector4T<T>::Kata	 ( 0,  0,  0, -1);
+template<typename T> inline const _Vector4T<T> _Vector4T<T>::One	 ( 1,  1,  1,  1);
+template<typename T> inline const _Vector4T<T> _Vector4T<T>::Zero	 ( 0,  0,  0,  0);
 
 #undef THIS_TYPE
 #undef N_DIMS

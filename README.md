@@ -36,7 +36,7 @@ int main() {
 ```
 
 ### Inbuilt Vector Constants
-Each Vector type has a direction constant in each cardinal direction. Each Vector type also has 
+Each Vector type has a direction constant in each cardinal direction. Each Vector type also has a Zero and One constant.
 ```cpp
 int main() {
     Vector2I foo = Vector2I::Left;  // foo = Vector2I(-1,0)
@@ -49,7 +49,7 @@ int main() {
 ```
 
 ### Implicit Conversions
-When performing arithmetic operations, conversions are done implicitly.
+When performing arithmetic operations, lossless conversions are done implicitly. This means that Vectors with less dimensions are implicitly converted into Vectors with more dimensions. 
 ```cpp
 int main() {
     Colour foo = Vector3::One * 2;  // foo = Colour(2, 2, 2, 0)
@@ -58,6 +58,7 @@ int main() {
     foo -= bar; // foo = Colour(1.9, 1, 2, 0)
 }
 ```
+
 
 ### Explicit Conversions
 Each of these types can also be explicitly converted to each other.

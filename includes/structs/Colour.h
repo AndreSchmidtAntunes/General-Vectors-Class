@@ -104,14 +104,14 @@ struct Colour : public THIS_TYPE {
 	static const Colour Null, Empty;
 };
 
-inline const Colour Colour::Red			( 1, 0, 0, 1 );
-inline const Colour Colour::Green		( 0, 1, 0, 1 );
-inline const Colour Colour::Blue		( 0, 0, 1, 1 );
-inline const Colour Colour::Yellow		( 1, 1, 0, 1 );
-inline const Colour Colour::Cyan		( 0, 1, 1, 1 );
-inline const Colour Colour::Magenta		( 1, 0, 1, 1 );
-inline const Colour Colour::White		( 1, 1, 1, 1 );
-inline const Colour Colour::Black		( 0, 0, 0, 1 );
+inline const Colour Colour::Red		( 1, 0, 0, 1 );
+inline const Colour Colour::Green	( 0, 1, 0, 1 );
+inline const Colour Colour::Blue	( 0, 0, 1, 1 );
+inline const Colour Colour::Yellow	( 1, 1, 0, 1 );
+inline const Colour Colour::Cyan	( 0, 1, 1, 1 );
+inline const Colour Colour::Magenta	( 1, 0, 1, 1 );
+inline const Colour Colour::White	( 1, 1, 1, 1 );
+inline const Colour Colour::Black	( 0, 0, 0, 1 );
 inline const Colour Colour::Null, Colour::Empty ( 0, 0, 0, 0 );
 
 #undef THIS_ARITHMETIC_TYPE

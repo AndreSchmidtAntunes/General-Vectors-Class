@@ -122,7 +122,7 @@ namespace Vector {
 			}
 		}
 
-		// Converts to a vector with less dimensions:
+		// Explicitly converts to a vector with less dimensions:
 		OTHER_TYPE_TEMPLATE requires (OTHER_DIMENTION_COUNT > nDim)
 			explicit constexpr _VectorT(const OTHER_TYPE& other) : _VectorT() {
 			for (size_t i = 0; i < nDim; i++) {
